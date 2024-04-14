@@ -5,7 +5,7 @@ def delete_folder(folder_path):
     try:
         # 주어진 경로의 폴더를 삭제합니다.
         os.system(f"rmdir /s /q {folder_path}")
-        print(f"{folder_path} 폴더가 삭제되었습니다.")
+        print(f"{folder_path} removed.")
     except FileNotFoundError:
         print(f"주어진 경로에 폴더가 없습니다: {folder_path}")
     except OSError as e:
@@ -50,3 +50,5 @@ destination_directory = "D:/earify/coding/github/ysg-obsidian/ysg_study/"
 copy_folders_to_destination(source_folders, destination_directory)
 
 print("Folders copied successfully!")
+
+input("Press enter to left.")

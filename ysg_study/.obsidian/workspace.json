@@ -63,7 +63,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "수업 자료/통사/_목차/2. 자연환경과 인간/2-2 인간과 자연의 관계.md",
+                "file": "수업 자료/국사/국사 목차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "수업 자료/통사/_목차/2. 자연환경과 인간/2-2 인간과 자연의 관계.md",
+                "file": "수업 자료/국사/국사 목차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "수업 자료/통사/_목차/2. 자연환경과 인간/2-2 인간과 자연의 관계.md"
+                "file": "수업 자료/국사/국사 목차.md"
               }
             }
           }
@@ -223,10 +224,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "aad9245e93f34ebc",
+  "active": "3c6d3820d04783e3",
   "lastOpenFiles": [
-    "_여수고 자료/여수고의 선생님들.md",
     "수업 자료/통사/_목차/2. 자연환경과 인간/2-2 인간과 자연의 관계.md",
+    "_여수고 자료/여수고의 선생님들.md",
     "수업 자료/통사/통사 목차.md",
     "수업 자료/통사/_목차/2. 자연환경과 인간/2-1 자연환경과 생활.md",
     "수업 자료/통사/_목차/1. 인간, 사회, 환경과 행복/1-1 통합적 관점의 이해.md",
