@@ -2,9 +2,12 @@ import os
 import shutil
 
 def copy_folders_to_destination(source_folders, dest_dir):
-    # 대상 폴더가 없으면 생성
-    if not os.path.exists(dest_dir):
-        os.makedirs(dest_dir)
+    # 대상 폴더가 이미 존재하면 삭제
+    if os.path.exists(dest_dir):
+        shutil.rmtree(dest_dir)
+    
+    # 대상 폴더 생성
+    os.makedirs(dest_dir)
 
     # 각 소스 폴더를 대상 폴더로 복사
     for source_folder in source_folders:
@@ -31,6 +34,5 @@ copy_folders_to_destination(source_folders, destination_directory)
 # 한 번 더
 destination_directory = "D:/earify/coding/github/ysg-obsidian/ysg study/"
 copy_folders_to_destination(source_folders, destination_directory)
-
 
 print("Folders copied successfully!")

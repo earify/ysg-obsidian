@@ -1,0 +1,276 @@
+{
+  "main": {
+    "id": "df7d9c81598eb820",
+    "type": "split",
+    "children": [
+      {
+        "id": "bf74452965446465",
+        "type": "tabs",
+        "dimension": 61.349206349206355,
+        "children": [
+          {
+            "id": "aad9245e93f34ebc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "수업 자료/통사/_목차/2. 자연환경과 인간/2-2 인간과 자연의 관계.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "bdbbc6e98c42b10a",
+        "type": "tabs",
+        "dimension": 38.65079365079365,
+        "children": [
+          {
+            "id": "2f1c1faa12baf7b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_여수고 자료/여수고의 선생님들.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3c6d3820d04783e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "수업 자료/국사/국사 목차.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7a92bef6eb1cf549",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_여수고 자료/업데이트.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "87dba33b15930925",
+    "type": "split",
+    "children": [
+      {
+        "id": "5bd13255b2a0e444",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7e3c0d808cd560d8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6634b4959461634a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#_강조",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "63323e5c9ac6b2d2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "40774259239ffc9b",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b860259543cd428",
+        "type": "tabs",
+        "dimension": 40.89147286821706,
+        "children": [
+          {
+            "id": "ae30be5a5ad1741d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "수업 자료/통사/_목차/2. 자연환경과 인간/2-2 인간과 자연의 관계.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d250530e8a2fde68",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "수업 자료/통사/_목차/2. 자연환경과 인간/2-2 인간과 자연의 관계.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d7d37d4a9e78a977",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b35e159b20c7ca64",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "수업 자료/통사/_목차/2. 자연환경과 인간/2-2 인간과 자연의 관계.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "70351c51b4f48b70",
+        "type": "tabs",
+        "dimension": 24.515503875968992,
+        "children": [
+          {
+            "id": "b808ff18af78a7a0",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "a4c712421b79c703",
+        "type": "tabs",
+        "dimension": 34.593023255813954,
+        "children": [
+          {
+            "id": "40c62363430401bd",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 315.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "aad9245e93f34ebc",
+  "lastOpenFiles": [
+    "_여수고 자료/여수고의 선생님들.md",
+    "수업 자료/통사/_목차/2. 자연환경과 인간/2-2 인간과 자연의 관계.md",
+    "수업 자료/통사/통사 목차.md",
+    "수업 자료/통사/_목차/2. 자연환경과 인간/2-1 자연환경과 생활.md",
+    "수업 자료/통사/_목차/1. 인간, 사회, 환경과 행복/1-1 통합적 관점의 이해.md",
+    "수업 자료/통사/_목차/1. 인간, 사회, 환경과 행복/1-2 삶의 목적으로서의 행복.md",
+    "수업 자료/통사/_목차/4. 인권 보장과 헌법/4-1 인권 확대의 역사.md",
+    "수업 자료/국사/_목차/2. 근대 국민 국가 수립 운동/2-1 서구 열강의 접근과 조선의 대응.md",
+    "_여수고 자료/업데이트.md",
+    "수업 자료/통사/_단어, 사진 정리/레오폴드의 대지 윤리.md",
+    "수업 자료/국사/국사 목차.md",
+    "수업 자료/국어/_목차/5. 생각을 나누는 시/5-3 힘 있는 설득.md",
+    "수업 자료/통사/_목차/4. 인권 보장과 헌법/4-2 헌법의 인권 보장과 시민 참여.md",
+    "수업 자료/통사/_단어, 사진 정리/기후적 요인.md",
+    "_여수고 자료/_여수고 자료 양식.md",
+    "Pasted image 20240411021526.png",
+    "수업 자료/통사/_단어, 사진 정리/문화 소외 계층.md",
+    "수업 자료/영어/영어 목차.md",
+    "수업 자료/영어/_목차/1. The Part You Play/1. 문법.md",
+    "수업 자료/영어/_목차/2. The Power of Creativity/2. 단어.md",
+    "수업 자료/영어/_목차/1. The Part You Play/1. 단어.md",
+    "수업 자료/영어/_목차/2. The Power of Creativity/2. 문법.md",
+    "수업 자료/영어/_목차/3. Sound Life/3. 단어.md",
+    "선생님 자료/시험/한문 - 유천선.md",
+    "선생님 자료/시험/국어A - 조정희.md",
+    "선생님 자료/시험/국사A - 김상기.md",
+    "선생님 자료/시험/국사B - 정해연.md",
+    "Pasted image 20240410223838.png",
+    "Pasted image 20240410215439.png",
+    "Pasted image 20240410215446.png",
+    "Pasted image 20240410215445.png",
+    "Pasted image 20240410215444 4.png",
+    "Pasted image 20240410215444 3.png",
+    "Pasted image 20240410215444 2.png",
+    "Pasted image 20240410215444 1.png",
+    "Pasted image 20240410215444.png",
+    "수업 자료/통사/_목차/9. 미래와 지속 가능한 삶/desktop.ini",
+    "수업 자료/통사/_목차/8. 세계화와 평화/desktop.ini",
+    "수업 자료/통사/_목차/7. 문화와 다양성/desktop.ini",
+    "수업 자료/통사/_목차/9. 미래와 지속 가능한 삶",
+    "수업 자료/통사/_목차/8. 세계화와 평화",
+    "수업 자료/통사/_목차/6. 사회 정의와 불평등/desktop.ini",
+    "수업 자료/통사/_목차/5. 시장 경제와 금융/desktop.ini",
+    "수업 자료/통사/_목차/7. 문화와 다양성",
+    "수업 자료/통사/_목차/6. 사회 정의와 불평등",
+    "수업 자료/통사/_목차/5. 시장 경제와 금융",
+    "Untitled.canvas"
+  ]
+}
