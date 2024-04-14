@@ -1,0 +1,2 @@
+# ysg-obsidian
+pls 
