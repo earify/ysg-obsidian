@@ -1,6 +1,17 @@
 import os
 import shutil
 
+def delete_folder(folder_path):
+    try:
+        # 주어진 경로의 폴더를 삭제합니다.
+        os.system(f"rmdir /s /q {folder_path}")
+        print(f"{folder_path} 폴더가 삭제되었습니다.")
+    except FileNotFoundError:
+        print(f"주어진 경로에 폴더가 없습니다: {folder_path}")
+    except OSError as e:
+        print(f"폴더 삭제 중 오류가 발생했습니다: {e}")
+
+
 def copy_folders_to_destination(source_folders, dest_dir):
     # 대상 폴더가 이미 존재하면 삭제
     if os.path.exists(dest_dir):
@@ -26,9 +37,16 @@ source_folders = [
     "D:/earify/Gdrive/obsidian/ysg/수업 자료"
 ]
 
+
+# 폴더를 삭제할 경로를 지정합니다.
+folder_to_delete = "D:\\earify\\coding\\github\\ysg-obsidian\\ysg_study"
+
+# 폴더 삭제 함수 호출
+delete_folder(folder_to_delete)
+
 # 사용자로부터 대상 폴더의 경로를 입력 받기
 # 입력 받은 폴더들을 대상 폴더로 복사
-destination_directory = "D:/earify/coding/github/ysg-obsidian/ysg1study/"
+destination_directory = "D:/earify/coding/github/ysg-obsidian/ysg_study/"
 copy_folders_to_destination(source_folders, destination_directory)
 
 print("Folders copied successfully!")
