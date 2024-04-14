@@ -1,5 +1,23 @@
 import os
 import shutil
+from datetime import datetime
+
+def create_folder_with_txt_file(directory):
+    try:
+        # 현재 시간을 가져옵니다.
+        current_time = datetime.now()
+        # 폴더 이름을 생성합니다. 날짜 및 시간을 원하는 형식으로 지정합니다.
+        formatted_time = current_time.strftime("_%Y-%m-%d %H시 %M분")
+        folder_name = formatted_time
+        # 폴더의 전체 경로를 생성합니다.
+        folder_path = os.path.join(directory, folder_name)
+        
+        # 폴더를 생성합니다.
+        os.makedirs(folder_path)
+        print(f"폴더 '{folder_name}'가 생성되었습니다.")
+
+    except Exception as e:
+        print(f"폴더 및 파일 생성 중 오류가 발생했습니다: {e}")
 
 def delete_folder(folder_path):
     try:
@@ -32,9 +50,9 @@ def copy_folders_to_destination(source_folders, dest_dir):
 
 # 사용자가 직접 폴더의 경로를 입력합니다.
 source_folders = [
-    "D:/earify/Gdrive/obsidian/ysg/_여수고 자료",
+    "D:/earify/Gdrive/obsidian/ysg/여수고 자료",
     "D:/earify/Gdrive/obsidian/ysg/.obsidian",
-    "D:/earify/Gdrive/obsidian/ysg/수업 자료"
+    "D:/earify/Gdrive/obsidian/ysg/학교 수업 자료"
 ]
 
 
@@ -49,4 +67,7 @@ delete_folder(folder_to_delete)
 destination_directory = "D:/earify/coding/github/ysg-obsidian/ysg_study/"
 copy_folders_to_destination(source_folders, destination_directory)
 
-print("Folders copied successfully!")
+# 함수 호출
+create_folder_with_txt_file(destination_directory)
+
+print("니 코드 성공함!")
