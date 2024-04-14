@@ -28,7 +28,7 @@ source_folders = [
 
 # 사용자로부터 대상 폴더의 경로를 입력 받기
 # 입력 받은 폴더들을 대상 폴더로 복사
-destination_directory = "D:/earify/coding/github/ysg-obsidian/ysg1study/"
+destination_directory = "D:/earify/coding/github/ysg-obsidian/ysg study/"
 copy_folders_to_destination(source_folders, destination_directory)
 
 print("Folders copied successfully!")
