@@ -15,7 +15,15 @@ def create_folder_with_txt_file(directory):
         # 폴더를 생성합니다.
         os.makedirs(folder_path)
         print(f"폴더 '{folder_name}'가 생성되었습니다.")
-
+        
+        # 폴더 안에 텍스트 파일을 생성합니다.
+        file_name = "내용.txt"
+        file_path = os.path.join(folder_path, file_name)
+        # 파일을 생성하고 내용을 작성합니다.
+        with open(file_path, "w") as file:
+            file.write(f"{formatted_time}")
+        print(f"폴더 '{folder_name}'가 생성되었습니다.")
+        print(f"폴더 '{folder_name}' 안에 파일 '{file_name}'이 생성되었습니다.")
     except Exception as e:
         print(f"폴더 및 파일 생성 중 오류가 발생했습니다: {e}")
 
